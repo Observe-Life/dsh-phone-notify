@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36">
+  <defs>
+    <mask id="pn-screen">
+      <rect x="0" y="0" width="36" height="36" fill="#ffffff"/>
+      <rect x="12.6" y="10.4" width="10.8" height="16.2" rx="1.8" fill="#000000"/>
+    </mask>
+  </defs>
+  <g mask="url(#pn-screen)">
+    <rect x="9.5" y="5.5" width="17" height="25" rx="3.4" fill="#2b3a55"/>
+    <rect x="14.5" y="7.4" width="7" height="1.4" rx="0.7" fill="#8ea3c2"/>
+    <rect x="14.8" y="28.2" width="6.4" height="1.2" rx="0.6" fill="#8ea3c2"/>
+  </g>
+  <circle cx="25.5" cy="10.5" r="6" fill="#e8a13c"/>
+  <path d="M25.5 6.9c-1.6 0-2.7 1.2-2.7 2.8v1.9l-1 1.6h7.4l-1-1.6V9.7c0-1.6-1.1-2.8-2.7-2.8Z" fill="#ffffff"/>
+  <path d="M24.3 15.2a1.3 1.3 0 0 0 2.4 0Z" fill="#ffffff"/>
+</svg>

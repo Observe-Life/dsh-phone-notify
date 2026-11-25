@@ -1,0 +1,32 @@
+{
+  "name": "dsh-phone-notify",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "手机通知：本智能体回答完成、被中断、弹窗需做决策时，经 Server酱3 推送到手机",
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "test",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node --check lib/index.js && node --check lib/notify-core.js",
+    "test": "node --test"
+  }
+}

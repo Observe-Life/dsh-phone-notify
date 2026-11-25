@@ -1,0 +1,10 @@
+# 手机通知 bundle 补丁：把宿主半边挂进 profile 的宿主组装。
+# 配置：pushUrl 为 Server酱3 的 send 端点（含 SendKey）。此文件会随仓库公开，
+# 真实密钥不放这里——留占位符，由用户层 profile 配置（cordis.patch.yml 的
+# phone-notify 行）覆盖传入。
+- insert:
+    - id: phone-notify
+      name: dsh-phone-notify
+      config:
+        pushUrl: ""
+        enabled: true

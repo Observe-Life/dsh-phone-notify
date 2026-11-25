@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Phone notify",
+    "description": "Pushes to your phone via ServerChan when the agent finishes an answer, is interrupted, or needs a decision."
+  }
+}
